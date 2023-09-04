@@ -16,7 +16,8 @@ const config: Config = {
             colors: {
                 "text-dark": "#391400",
                 "text-light": "#FFF",
-                "text-light-accent": "#EF6D58",
+                "text-accent": "#EF6D58",
+                "text-light-gray": "rgba(255, 255, 255, 0.64)",
             },
             backgroundColor: {
                 "blue-dark": "#28293E",
