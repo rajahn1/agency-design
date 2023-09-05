@@ -1,4 +1,5 @@
 import Image from "next/image";
+import HowWeWork from "./HowWeWork";
 
 export default function SecondSection() {
     return (
@@ -83,6 +84,7 @@ export default function SecondSection() {
                     <span>Projects Complete</span>
                 </div>
             </div>
+            <HowWeWork />
         </section>
     );
 }
