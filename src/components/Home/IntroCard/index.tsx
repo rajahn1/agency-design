@@ -13,12 +13,9 @@ export default function IntroCard() {
                     backgroundPosition: "72% 4%",
                 }}
             >
-                <span className="text-text-accent text-xs tracking-[0.2rem]">
-                    {" "}
-                    MODERN STUDIO
-                </span>
-                <h2 className="font-extrabold leading-tight text-5xl">
-                    We’re Help
+                <span className="subtitle"> MODERN STUDIO</span>
+                <h2 className="title text-6xl text-text-light">
+                    We&apos;re Help
                     <br />
                     To Build Your
                     <br />
@@ -54,7 +51,7 @@ export default function IntroCard() {
             <div className="container-right">
                 <Image
                     src={"/home/hero-card.svg"}
-                    width={500}
+                    width={430}
                     height={350}
                     alt="compilation of various images, laptop with purple background, a skeleton, a image of a woman smiling with yellow background, with two symbols above her, one is three stars and the other its a scratched cloud"
                 />

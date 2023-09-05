@@ -1,5 +1,8 @@
 import Image from "next/image";
 import HowWeWork from "./HowWeWork";
+import VideoReel from "./VideoReel";
+import HomeFeatures from "./HomeFeatures";
+import HomeFeaturesRow from "./HomeFeaturesRow";
 
 export default function SecondSection() {
     return (
@@ -36,27 +39,26 @@ export default function SecondSection() {
                     alt="Media Fury Mark Logo"
                 />
             </div>
-            <div className="flex justify-center gap-24">
+            <div className="flex items-center gap-24">
                 <div className="container-left">
                     <Image
                         src={"/home/hero-image-about.svg"}
                         width={500}
-                        height={200}
+                        height={400}
                         alt="a montage with images, with a office on the center, a white man with glasses with a circle red background"
                     />
                 </div>
                 <div className="flex flex-col gap-4 container-right">
-                    <span className="text-text-accent text-xs tracking-[0.2rem]">
-                        {" "}
-                        ABOUT
-                    </span>
-                    <h2 className="font-extrabold leading-tight text-5xl">
+                    <span className="subtitle"> ABOUT</span>
+                    <h2 className="title ">
                         An Experience
                         <br />
                         Design Agency
                     </h2>
-                    <span>Provides a full service range</span>
-                    <p className="text-sm text-text-dark-gray leading-normal">
+                    <span className="content">
+                        Provides a full service range
+                    </span>
+                    <p className="paragraph text-[0.81rem]">
                         Ability to put themselves in the merchant&apos;s shoes.
                         It is <br />
                         meant to partner on the long run, and work as an
@@ -85,6 +87,9 @@ export default function SecondSection() {
                 </div>
             </div>
             <HowWeWork />
+            <VideoReel />
+            <HomeFeatures />
+            <HomeFeaturesRow />
         </section>
     );
 }

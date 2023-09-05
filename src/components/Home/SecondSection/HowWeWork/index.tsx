@@ -2,15 +2,13 @@ export default function HowWeWork() {
     return (
         <section className="flex text-text-dark gap-24 pb-16 border-b border-[#F3D1BF]">
             <div className="flex flex-col gap-8">
-                <span className="text-text-accent text-xs tracking-[0.2rem]">
-                    HOW WE WORK
-                </span>
-                <h2 className="font-extrabold leading-tight text-4xl">
+                <span className="subtitle">HOW WE WORK</span>
+                <h2 className="title text-3xl">
                     Making Your Projects
                     <br />
                     Look Awesome
                 </h2>
-                <p className="text-sm text-text-dark-gray leading-normal">
+                <p className="paragraph">
                     Technical skills, design, business understanding, ability to
                     <br />
                     put themselves in the merchant&apos;s shoes.

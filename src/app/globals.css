@@ -12,6 +12,23 @@ body > * {
     padding: 1rem 9rem;
 }
 
+@layer components {
+    .subtitle {
+        @apply text-text-accent text-base tracking-[0.2rem];
+    }
+
+    .paragraph {
+        @apply text-base text-text-dark-gray leading-8;
+    }
+
+    .title {
+        @apply font-extrabold leading-tight text-5xl text-text-dark;
+    }
+    .content {
+        @apply text-lg text-text-dark;
+    }
+}
+
 /* button animation */
 .contact-button {
     --color: #fff;
