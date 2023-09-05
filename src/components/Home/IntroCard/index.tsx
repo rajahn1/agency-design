@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function IntroCard() {
     return (
-        <section className="flex pt-12 justify-between bg-blue-dark text-text-light ">
+        <section className="flex justify-center gap-24 pt-24 pb-16 bg-blue-dark text-text-light ">
             <div
                 className="flex gap-6 flex-col container-left"
                 style={{
@@ -24,7 +24,7 @@ export default function IntroCard() {
                     <br />
                     Dream Project
                 </h2>
-                <p className="text-sm text-text-light-gray">
+                <p className="text-sm text-text-light-gray leading-normal">
                     Agency provides a full service range including technical
                     <br />
                     skills, design, business understanding.
@@ -44,7 +44,8 @@ export default function IntroCard() {
                     />
                     <div className="flex flex-col justify-center text-xs">
                         <span className="text-text-light-gray">
-                            "Put themselves in the merchant's shoes"
+                            &quot;Put themselves in the merchant&apos;s
+                            shoes&quot;
                         </span>
                         <span className="ml-1">Meta Inc.</span>
                     </div>
@@ -53,7 +54,7 @@ export default function IntroCard() {
             <div className="container-right">
                 <Image
                     src={"/home/hero-card.svg"}
-                    width={420}
+                    width={500}
                     height={350}
                     alt="compilation of various images, laptop with purple background, a skeleton, a image of a woman smiling with yellow background, with two symbols above her, one is three stars and the other its a scratched cloud"
                 />

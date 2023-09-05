@@ -1,6 +1,6 @@
 import Image from "next/image";
 export const NavBar = () => (
-    <nav className=" text-text-light flex justify-between items-center gap-2 w-screen bg-blue-dark">
+    <nav className=" text-text-light flex justify-between items-center gap-2 bg-blue-dark">
         <div className="flex items-center gap-4">
             <Image
                 className=""

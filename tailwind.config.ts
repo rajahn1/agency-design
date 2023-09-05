@@ -15,13 +15,14 @@ const config: Config = {
             },
             colors: {
                 "text-dark": "#391400",
+                "text-dark-gray": "rgba(57, 20, 0, 0.64)",
                 "text-light": "#FFF",
                 "text-accent": "#EF6D58",
                 "text-light-gray": "rgba(255, 255, 255, 0.64)",
             },
             backgroundColor: {
                 "blue-dark": "#28293E",
-                light: "#FDF0E9",
+                "orange-light": "#FDF0E9",
                 "bg-orange": "#EF6D58",
             },
         },
